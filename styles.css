@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css);
+
+#bod {
+  min-width: 300px;
+  align-items: left;
+  margin: 15px;
+}
+
+h1 {
+  font-size: 1.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #F2A640;
+}
+
+h3 {
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #000;
+}
+
+p {
+  font-family: 'Material Design Iconic', sans-serif;
+  font-size: 1em;
+}
+
+#select {
+  font-weight: 500;
+  color: #F2A640;
+}

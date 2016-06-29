@@ -1,0 +1,28 @@
+{
+  "name": "Zenefits blog button",
+  "description": "Quick insert latest Zenefits blog links in Gmail signature",
+  "version": "0.1",
+  "manifest_version": 2,
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts":
+  [{
+    "matches": ["https://mail.google.com/*","https://inbox.google.com/*"],
+    "js": ["jquery.min.js","underscore-min.js","inboxsdk.js","content.js"],
+    "css": ["styles.css"],
+    "run_at": "document_end"
+  }],
+  "browser_action": {
+    "default_title": "ZeneBlog",
+    "default_icon": "icon.png",
+    "default_popup": "options.html"
+  },
+  "permissions": [
+    "https://mail.google.com/",
+    "https://inbox.google.com/",
+    "http://*.zenefits.com/",
+    "https://*.zenefits.com/",
+    "storage" 
+  ]
+}

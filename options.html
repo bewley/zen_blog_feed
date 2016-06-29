@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <link href="styles.css" rel="stylesheet"></link>
+  <script type="text/javascript" src="jquery.min.js"></script>
+</head>
+<body id="bod">
+<h1>Zenefits Blog RSS Feed adder!</h1>
+<p>This extension allows you to add Zenefits HR or Engineering blog feeds to your signature at the end of your emails in Gmail.</p>
+<h3>Step 1: Choose which feed you want to use:</h3>
+<div id="select">
+<!-- <h4 id="select">Current blog selection: </h4><h4 id="data"></h4><h4 id="num"></h4> -->
+</div>
+<br/>
+<select id="blogChoice">
+		<option value="HR">Zenefits HR Blog</option>
+		<option value="ENG">Zenefits Engineering Blog</option>
+		<!-- <option type="radio" value="">Other <input type="text" name="other_reason"/> -->
+	</select><span> </span>
+<select id="noArticles">
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option value="5">5</option>
+		<option value="6">6</option>
+	</select><span> </span>
+<!--   <input type="text" id="text"></input> -->
+  <button id="set">Save</button>
+ <h3 id="step2"></h3>
+
+  <script src="options.js"></script>
+</body>
+</html>
